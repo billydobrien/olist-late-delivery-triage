@@ -1,0 +1,117 @@
+﻿train labeled: 43,345 (2,452 late); features: 43 (38 numeric, 5 categorical)
+{'learning_rate': 0.01, 'max_leaf_nodes': 2, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 209, 'val_wasted': 793, 'val_hit_rate': np.float64(0.2086), 'val_pr_auc': 0.171, 'fit_seconds': 2.3}
+{'learning_rate': 0.01, 'max_leaf_nodes': 2, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 260, 'val_wasted': 742, 'val_hit_rate': np.float64(0.2595), 'val_pr_auc': 0.1939, 'fit_seconds': 4.0}
+{'learning_rate': 0.01, 'max_leaf_nodes': 2, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 282, 'val_wasted': 714, 'val_hit_rate': np.float64(0.2831), 'val_pr_auc': 0.206, 'fit_seconds': 5.5}
+{'learning_rate': 0.01, 'max_leaf_nodes': 2, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 209, 'val_wasted': 793, 'val_hit_rate': np.float64(0.2086), 'val_pr_auc': 0.171, 'fit_seconds': 1.6}
+{'learning_rate': 0.01, 'max_leaf_nodes': 2, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 260, 'val_wasted': 742, 'val_hit_rate': np.float64(0.2595), 'val_pr_auc': 0.1939, 'fit_seconds': 3.7}
+{'learning_rate': 0.01, 'max_leaf_nodes': 2, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 282, 'val_wasted': 714, 'val_hit_rate': np.float64(0.2831), 'val_pr_auc': 0.206, 'fit_seconds': 7.3}
+{'learning_rate': 0.01, 'max_leaf_nodes': 3, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 272, 'val_wasted': 728, 'val_hit_rate': np.float64(0.272), 'val_pr_auc': 0.1818, 'fit_seconds': 1.8}
+{'learning_rate': 0.01, 'max_leaf_nodes': 3, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 280, 'val_wasted': 719, 'val_hit_rate': np.float64(0.2803), 'val_pr_auc': 0.2017, 'fit_seconds': 2.7}
+{'learning_rate': 0.01, 'max_leaf_nodes': 3, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 307, 'val_wasted': 694, 'val_hit_rate': np.float64(0.3067), 'val_pr_auc': 0.215, 'fit_seconds': 4.2}
+{'learning_rate': 0.01, 'max_leaf_nodes': 3, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 272, 'val_wasted': 728, 'val_hit_rate': np.float64(0.272), 'val_pr_auc': 0.1818, 'fit_seconds': 0.6}
+{'learning_rate': 0.01, 'max_leaf_nodes': 3, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 283, 'val_wasted': 716, 'val_hit_rate': np.float64(0.2833), 'val_pr_auc': 0.2013, 'fit_seconds': 1.5}
+{'learning_rate': 0.01, 'max_leaf_nodes': 3, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 301, 'val_wasted': 699, 'val_hit_rate': np.float64(0.301), 'val_pr_auc': 0.2138, 'fit_seconds': 2.9}
+{'learning_rate': 0.01, 'max_leaf_nodes': 7, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 316, 'val_wasted': 682, 'val_hit_rate': np.float64(0.3166), 'val_pr_auc': 0.2139, 'fit_seconds': 1.1}
+{'learning_rate': 0.01, 'max_leaf_nodes': 7, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 332, 'val_wasted': 666, 'val_hit_rate': np.float64(0.3327), 'val_pr_auc': 0.2279, 'fit_seconds': 2.3}
+{'learning_rate': 0.01, 'max_leaf_nodes': 7, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 329, 'val_wasted': 671, 'val_hit_rate': np.float64(0.329), 'val_pr_auc': 0.2386, 'fit_seconds': 4.5}
+{'learning_rate': 0.01, 'max_leaf_nodes': 7, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 310, 'val_wasted': 688, 'val_hit_rate': np.float64(0.3106), 'val_pr_auc': 0.2139, 'fit_seconds': 1.0}
+{'learning_rate': 0.01, 'max_leaf_nodes': 7, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 327, 'val_wasted': 673, 'val_hit_rate': np.float64(0.327), 'val_pr_auc': 0.2258, 'fit_seconds': 2.3}
+{'learning_rate': 0.01, 'max_leaf_nodes': 7, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 322, 'val_wasted': 680, 'val_hit_rate': np.float64(0.3214), 'val_pr_auc': 0.2401, 'fit_seconds': 4.0}
+{'learning_rate': 0.01, 'max_leaf_nodes': 15, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 297, 'val_wasted': 701, 'val_hit_rate': np.float64(0.2976), 'val_pr_auc': 0.2011, 'fit_seconds': 1.3}
+{'learning_rate': 0.01, 'max_leaf_nodes': 15, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 326, 'val_wasted': 676, 'val_hit_rate': np.float64(0.3253), 'val_pr_auc': 0.2266, 'fit_seconds': 5.3}
+{'learning_rate': 0.01, 'max_leaf_nodes': 15, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 323, 'val_wasted': 679, 'val_hit_rate': np.float64(0.3224), 'val_pr_auc': 0.2355, 'fit_seconds': 6.1}
+{'learning_rate': 0.01, 'max_leaf_nodes': 15, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 291, 'val_wasted': 711, 'val_hit_rate': np.float64(0.2904), 'val_pr_auc': 0.1978, 'fit_seconds': 1.2}
+{'learning_rate': 0.01, 'max_leaf_nodes': 15, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 314, 'val_wasted': 685, 'val_hit_rate': np.float64(0.3143), 'val_pr_auc': 0.2243, 'fit_seconds': 5.6}
+{'learning_rate': 0.01, 'max_leaf_nodes': 15, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 319, 'val_wasted': 682, 'val_hit_rate': np.float64(0.3187), 'val_pr_auc': 0.2361, 'fit_seconds': 9.4}
+{'learning_rate': 0.01, 'max_leaf_nodes': 31, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 283, 'val_wasted': 721, 'val_hit_rate': np.float64(0.2819), 'val_pr_auc': 0.1997, 'fit_seconds': 2.7}
+{'learning_rate': 0.01, 'max_leaf_nodes': 31, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 308, 'val_wasted': 695, 'val_hit_rate': np.float64(0.3071), 'val_pr_auc': 0.2302, 'fit_seconds': 6.7}
+{'learning_rate': 0.01, 'max_leaf_nodes': 31, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 314, 'val_wasted': 693, 'val_hit_rate': np.float64(0.3118), 'val_pr_auc': 0.2334, 'fit_seconds': 51.1}
+{'learning_rate': 0.01, 'max_leaf_nodes': 31, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 281, 'val_wasted': 723, 'val_hit_rate': np.float64(0.2799), 'val_pr_auc': 0.1982, 'fit_seconds': 24.6}
+{'learning_rate': 0.01, 'max_leaf_nodes': 31, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 326, 'val_wasted': 673, 'val_hit_rate': np.float64(0.3263), 'val_pr_auc': 0.2341, 'fit_seconds': 4.4}
+{'learning_rate': 0.01, 'max_leaf_nodes': 31, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 313, 'val_wasted': 689, 'val_hit_rate': np.float64(0.3124), 'val_pr_auc': 0.2346, 'fit_seconds': 7.8}
+{'learning_rate': 0.03, 'max_leaf_nodes': 2, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 258, 'val_wasted': 743, 'val_hit_rate': np.float64(0.2577), 'val_pr_auc': 0.1933, 'fit_seconds': 0.7}
+{'learning_rate': 0.03, 'max_leaf_nodes': 2, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 299, 'val_wasted': 702, 'val_hit_rate': np.float64(0.2987), 'val_pr_auc': 0.2139, 'fit_seconds': 1.2}
+{'learning_rate': 0.03, 'max_leaf_nodes': 2, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 307, 'val_wasted': 691, 'val_hit_rate': np.float64(0.3076), 'val_pr_auc': 0.2316, 'fit_seconds': 1.9}
+{'learning_rate': 0.03, 'max_leaf_nodes': 2, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 258, 'val_wasted': 743, 'val_hit_rate': np.float64(0.2577), 'val_pr_auc': 0.1933, 'fit_seconds': 0.7}
+{'learning_rate': 0.03, 'max_leaf_nodes': 2, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 299, 'val_wasted': 702, 'val_hit_rate': np.float64(0.2987), 'val_pr_auc': 0.2139, 'fit_seconds': 1.2}
+{'learning_rate': 0.03, 'max_leaf_nodes': 2, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 307, 'val_wasted': 691, 'val_hit_rate': np.float64(0.3076), 'val_pr_auc': 0.2317, 'fit_seconds': 2.0}
+{'learning_rate': 0.03, 'max_leaf_nodes': 3, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 281, 'val_wasted': 719, 'val_hit_rate': np.float64(0.281), 'val_pr_auc': 0.2003, 'fit_seconds': 0.8}
+{'learning_rate': 0.03, 'max_leaf_nodes': 3, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 315, 'val_wasted': 685, 'val_hit_rate': np.float64(0.315), 'val_pr_auc': 0.2226, 'fit_seconds': 1.4}
+{'learning_rate': 0.03, 'max_leaf_nodes': 3, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 328, 'val_wasted': 671, 'val_hit_rate': np.float64(0.3283), 'val_pr_auc': 0.238, 'fit_seconds': 2.4}
+{'learning_rate': 0.03, 'max_leaf_nodes': 3, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 280, 'val_wasted': 720, 'val_hit_rate': np.float64(0.28), 'val_pr_auc': 0.2003, 'fit_seconds': 0.8}
+{'learning_rate': 0.03, 'max_leaf_nodes': 3, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 326, 'val_wasted': 675, 'val_hit_rate': np.float64(0.3257), 'val_pr_auc': 0.2242, 'fit_seconds': 1.4}
+{'learning_rate': 0.03, 'max_leaf_nodes': 3, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 325, 'val_wasted': 670, 'val_hit_rate': np.float64(0.3266), 'val_pr_auc': 0.2391, 'fit_seconds': 2.4}
+{'learning_rate': 0.03, 'max_leaf_nodes': 7, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 329, 'val_wasted': 671, 'val_hit_rate': np.float64(0.329), 'val_pr_auc': 0.2256, 'fit_seconds': 0.9}
+{'learning_rate': 0.03, 'max_leaf_nodes': 7, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 331, 'val_wasted': 665, 'val_hit_rate': np.float64(0.3323), 'val_pr_auc': 0.2433, 'fit_seconds': 2.0}
+{'learning_rate': 0.03, 'max_leaf_nodes': 7, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 323, 'val_wasted': 675, 'val_hit_rate': np.float64(0.3236), 'val_pr_auc': 0.2419, 'fit_seconds': 3.4}
+{'learning_rate': 0.03, 'max_leaf_nodes': 7, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 326, 'val_wasted': 674, 'val_hit_rate': np.float64(0.326), 'val_pr_auc': 0.2276, 'fit_seconds': 1.0}
+{'learning_rate': 0.03, 'max_leaf_nodes': 7, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 326, 'val_wasted': 671, 'val_hit_rate': np.float64(0.327), 'val_pr_auc': 0.243, 'fit_seconds': 1.9}
+{'learning_rate': 0.03, 'max_leaf_nodes': 7, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 335, 'val_wasted': 671, 'val_hit_rate': np.float64(0.333), 'val_pr_auc': 0.2464, 'fit_seconds': 3.4}
+{'learning_rate': 0.03, 'max_leaf_nodes': 15, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 317, 'val_wasted': 680, 'val_hit_rate': np.float64(0.318), 'val_pr_auc': 0.2313, 'fit_seconds': 1.3}
+{'learning_rate': 0.03, 'max_leaf_nodes': 15, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 306, 'val_wasted': 692, 'val_hit_rate': np.float64(0.3066), 'val_pr_auc': 0.238, 'fit_seconds': 2.8}
+{'learning_rate': 0.03, 'max_leaf_nodes': 15, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 284, 'val_wasted': 719, 'val_hit_rate': np.float64(0.2832), 'val_pr_auc': 0.2249, 'fit_seconds': 4.8}
+{'learning_rate': 0.03, 'max_leaf_nodes': 15, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 308, 'val_wasted': 691, 'val_hit_rate': np.float64(0.3083), 'val_pr_auc': 0.2311, 'fit_seconds': 1.3}
+{'learning_rate': 0.03, 'max_leaf_nodes': 15, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 313, 'val_wasted': 694, 'val_hit_rate': np.float64(0.3108), 'val_pr_auc': 0.2395, 'fit_seconds': 2.8}
+{'learning_rate': 0.03, 'max_leaf_nodes': 15, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 288, 'val_wasted': 718, 'val_hit_rate': np.float64(0.2863), 'val_pr_auc': 0.2272, 'fit_seconds': 4.8}
+{'learning_rate': 0.03, 'max_leaf_nodes': 31, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 320, 'val_wasted': 685, 'val_hit_rate': np.float64(0.3184), 'val_pr_auc': 0.2294, 'fit_seconds': 1.7}
+{'learning_rate': 0.03, 'max_leaf_nodes': 31, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 295, 'val_wasted': 707, 'val_hit_rate': np.float64(0.2944), 'val_pr_auc': 0.2256, 'fit_seconds': 4.2}
+{'learning_rate': 0.03, 'max_leaf_nodes': 31, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 262, 'val_wasted': 746, 'val_hit_rate': np.float64(0.2599), 'val_pr_auc': 0.2066, 'fit_seconds': 8.2}
+{'learning_rate': 0.03, 'max_leaf_nodes': 31, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 318, 'val_wasted': 688, 'val_hit_rate': np.float64(0.3161), 'val_pr_auc': 0.2328, 'fit_seconds': 1.9}
+{'learning_rate': 0.03, 'max_leaf_nodes': 31, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 286, 'val_wasted': 712, 'val_hit_rate': np.float64(0.2866), 'val_pr_auc': 0.2259, 'fit_seconds': 4.4}
+{'learning_rate': 0.03, 'max_leaf_nodes': 31, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 242, 'val_wasted': 769, 'val_hit_rate': np.float64(0.2394), 'val_pr_auc': 0.2031, 'fit_seconds': 7.9}
+{'learning_rate': 0.1, 'max_leaf_nodes': 2, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 303, 'val_wasted': 695, 'val_hit_rate': np.float64(0.3036), 'val_pr_auc': 0.2158, 'fit_seconds': 0.7}
+{'learning_rate': 0.1, 'max_leaf_nodes': 2, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 299, 'val_wasted': 693, 'val_hit_rate': np.float64(0.3014), 'val_pr_auc': 0.2384, 'fit_seconds': 1.2}
+{'learning_rate': 0.1, 'max_leaf_nodes': 2, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 312, 'val_wasted': 686, 'val_hit_rate': np.float64(0.3126), 'val_pr_auc': 0.2396, 'fit_seconds': 2.0}
+{'learning_rate': 0.1, 'max_leaf_nodes': 2, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 303, 'val_wasted': 695, 'val_hit_rate': np.float64(0.3036), 'val_pr_auc': 0.2158, 'fit_seconds': 0.7}
+{'learning_rate': 0.1, 'max_leaf_nodes': 2, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 296, 'val_wasted': 696, 'val_hit_rate': np.float64(0.2984), 'val_pr_auc': 0.2375, 'fit_seconds': 1.2}
+{'learning_rate': 0.1, 'max_leaf_nodes': 2, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 299, 'val_wasted': 698, 'val_hit_rate': np.float64(0.2999), 'val_pr_auc': 0.2387, 'fit_seconds': 2.2}
+{'learning_rate': 0.1, 'max_leaf_nodes': 3, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 323, 'val_wasted': 678, 'val_hit_rate': np.float64(0.3227), 'val_pr_auc': 0.2303, 'fit_seconds': 0.8}
+{'learning_rate': 0.1, 'max_leaf_nodes': 3, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 323, 'val_wasted': 679, 'val_hit_rate': np.float64(0.3224), 'val_pr_auc': 0.2459, 'fit_seconds': 1.4}
+{'learning_rate': 0.1, 'max_leaf_nodes': 3, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 298, 'val_wasted': 703, 'val_hit_rate': np.float64(0.2977), 'val_pr_auc': 0.2312, 'fit_seconds': 2.3}
+{'learning_rate': 0.1, 'max_leaf_nodes': 3, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 329, 'val_wasted': 671, 'val_hit_rate': np.float64(0.329), 'val_pr_auc': 0.23, 'fit_seconds': 0.8}
+{'learning_rate': 0.1, 'max_leaf_nodes': 3, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 335, 'val_wasted': 664, 'val_hit_rate': np.float64(0.3353), 'val_pr_auc': 0.2473, 'fit_seconds': 1.4}
+{'learning_rate': 0.1, 'max_leaf_nodes': 3, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 317, 'val_wasted': 682, 'val_hit_rate': np.float64(0.3173), 'val_pr_auc': 0.2413, 'fit_seconds': 2.4}
+{'learning_rate': 0.1, 'max_leaf_nodes': 7, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 302, 'val_wasted': 689, 'val_hit_rate': np.float64(0.3047), 'val_pr_auc': 0.2406, 'fit_seconds': 0.9}
+{'learning_rate': 0.1, 'max_leaf_nodes': 7, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 290, 'val_wasted': 713, 'val_hit_rate': np.float64(0.2891), 'val_pr_auc': 0.228, 'fit_seconds': 1.9}
+{'learning_rate': 0.1, 'max_leaf_nodes': 7, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 262, 'val_wasted': 743, 'val_hit_rate': np.float64(0.2607), 'val_pr_auc': 0.2104, 'fit_seconds': 3.4}
+{'learning_rate': 0.1, 'max_leaf_nodes': 7, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 318, 'val_wasted': 685, 'val_hit_rate': np.float64(0.317), 'val_pr_auc': 0.2395, 'fit_seconds': 1.0}
+{'learning_rate': 0.1, 'max_leaf_nodes': 7, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 274, 'val_wasted': 734, 'val_hit_rate': np.float64(0.2718), 'val_pr_auc': 0.226, 'fit_seconds': 2.0}
+{'learning_rate': 0.1, 'max_leaf_nodes': 7, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 252, 'val_wasted': 755, 'val_hit_rate': np.float64(0.2502), 'val_pr_auc': 0.2056, 'fit_seconds': 3.3}
+{'learning_rate': 0.1, 'max_leaf_nodes': 15, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 297, 'val_wasted': 705, 'val_hit_rate': np.float64(0.2964), 'val_pr_auc': 0.2379, 'fit_seconds': 1.2}
+{'learning_rate': 0.1, 'max_leaf_nodes': 15, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 249, 'val_wasted': 756, 'val_hit_rate': np.float64(0.2478), 'val_pr_auc': 0.2064, 'fit_seconds': 2.7}
+{'learning_rate': 0.1, 'max_leaf_nodes': 15, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 235, 'val_wasted': 777, 'val_hit_rate': np.float64(0.2322), 'val_pr_auc': 0.192, 'fit_seconds': 4.9}
+{'learning_rate': 0.1, 'max_leaf_nodes': 15, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 285, 'val_wasted': 725, 'val_hit_rate': np.float64(0.2822), 'val_pr_auc': 0.2304, 'fit_seconds': 1.2}
+{'learning_rate': 0.1, 'max_leaf_nodes': 15, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 246, 'val_wasted': 760, 'val_hit_rate': np.float64(0.2445), 'val_pr_auc': 0.2028, 'fit_seconds': 2.6}
+{'learning_rate': 0.1, 'max_leaf_nodes': 15, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 236, 'val_wasted': 776, 'val_hit_rate': np.float64(0.2332), 'val_pr_auc': 0.1922, 'fit_seconds': 4.6}
+{'learning_rate': 0.1, 'max_leaf_nodes': 31, 'min_samples_leaf': 50, 'n_trees': 100, 'val_hits': 289, 'val_wasted': 716, 'val_hit_rate': np.float64(0.2876), 'val_pr_auc': 0.2295, 'fit_seconds': 1.6}
+{'learning_rate': 0.1, 'max_leaf_nodes': 31, 'min_samples_leaf': 50, 'n_trees': 300, 'val_hits': 253, 'val_wasted': 758, 'val_hit_rate': np.float64(0.2502), 'val_pr_auc': 0.2088, 'fit_seconds': 3.8}
+{'learning_rate': 0.1, 'max_leaf_nodes': 31, 'min_samples_leaf': 50, 'n_trees': 600, 'val_hits': 262, 'val_wasted': 756, 'val_hit_rate': np.float64(0.2574), 'val_pr_auc': 0.2052, 'fit_seconds': 7.2}
+{'learning_rate': 0.1, 'max_leaf_nodes': 31, 'min_samples_leaf': 200, 'n_trees': 100, 'val_hits': 274, 'val_wasted': 732, 'val_hit_rate': np.float64(0.2724), 'val_pr_auc': 0.2168, 'fit_seconds': 1.6}
+{'learning_rate': 0.1, 'max_leaf_nodes': 31, 'min_samples_leaf': 200, 'n_trees': 300, 'val_hits': 246, 'val_wasted': 768, 'val_hit_rate': np.float64(0.2426), 'val_pr_auc': 0.1989, 'fit_seconds': 3.7}
+{'learning_rate': 0.1, 'max_leaf_nodes': 31, 'min_samples_leaf': 200, 'n_trees': 600, 'val_hits': 231, 'val_wasted': 779, 'val_hit_rate': np.float64(0.2287), 'val_pr_auc': 0.1966, 'fit_seconds': 7.0}
+chosen: {'learning_rate': 0.1, 'max_leaf_nodes': 3, 'min_samples_leaf': 200, 'n_trees': 300}
+                               train    validation
+days                      361.000000    105.000000
+candidates              44973.000000  24510.000000
+late_orders              2452.000000   2831.000000
+picked                   3578.000000   1045.000000
+hits                      609.000000    335.000000
+wasted                   2779.000000    664.000000
+unknown                   190.000000     46.000000
+missed                   1843.000000   2496.000000
+hit_rate_of_picks           0.179752      0.335335
+share_of_late_caught        0.248369      0.118333
+share_of_best_possible      0.382298      0.350418
+best_possible_hits       1593.000000    956.000000
+random_expected_hits      151.900000    118.000000
+lift_over_random            4.009260      2.840058
+pr_auc_all_orders           0.300100      0.247300
+pr_auc_random               0.056600      0.118600
+saved fig01_table_validation_comparison.png
+saved fig02_table_tuning.png
+saved fig03_validation_daily_picks.png
+saved fig04_validation_cumulative_hits.png
+saved fig05_training_curve.png
+saved fig06_feature_importance.png
+saved fig07_budget_sensitivity.png
+saved fig08_weekly_hit_rate.png

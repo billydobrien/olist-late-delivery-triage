@@ -1,0 +1,17 @@
+,train,validation
+days,361.0,105.0
+candidates,44973.0,24510.0
+late_orders,2452.0,2831.0
+picked,3578.0,1045.0
+hits,609.0,335.0
+wasted,2779.0,664.0
+unknown,190.0,46.0
+missed,1843.0,2496.0
+hit_rate_of_picks,0.1797520661157025,0.3353353353353353
+share_of_late_caught,0.24836867862969006,0.11833274461321087
+share_of_best_possible,0.3822975517890772,0.350418410041841
+best_possible_hits,1593.0,956.0
+random_expected_hits,151.9,118.0
+lift_over_random,4.0092602994083775,2.8400583005115863
+pr_auc_all_orders,0.3001,0.2473
+pr_auc_random,0.0566,0.1186

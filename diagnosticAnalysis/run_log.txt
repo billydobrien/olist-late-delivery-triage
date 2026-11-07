@@ -1,0 +1,9 @@
+﻿saved fig01_table_region.png
+saved fig02_region_coverage.png
+trees curve done: chosen: learning rate 0.1, 3 leaves
+trees curve done: runner-up: learning rate 0.03, 7 leaves
+saved fig03_trees_sensitivity.png
+saved fig04_table_trees.png
+saved fig05_late_rate_promised_weekday.png
+saved fig06_table_weekend.png
+saved fig07_weekend_hit_rate.png

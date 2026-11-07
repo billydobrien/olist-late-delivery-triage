@@ -1,0 +1,49 @@
+column,group,source,why available at approval,use as model input
+approval_hour,time,orders.order_approved_at,known at approval,yes
+approval_weekday,time,orders.order_approved_at,known at approval,yes
+approval_month,time,orders.order_approved_at,known at approval,"no: training covers one year, so month would only memorize 2017 events"
+purchase_to_approval_h,time,orders purchase + approval timestamps,known at approval,yes
+promised_days,time,orders.order_estimated_delivery_date,promised date is shown to the customer at purchase (assumption),yes
+seller_ship_limit_days,time,order_items.shipping_limit_date,set at approval: 79% equal approval time-of-day + whole days,yes
+has_items,order,order_items,known at approval,yes
+n_items,order,order_items,known at approval,yes
+n_products,order,order_items,known at approval,yes
+n_sellers,order,order_items,known at approval,yes
+total_price,order,order_items.price,known at approval,yes
+total_freight,order,order_items.freight_value,known at approval,yes
+freight_ratio,order,derived,known at approval,yes
+total_weight_g,product,products,catalog attribute,yes
+total_volume_cm3,product,products,catalog attribute,yes
+main_category,product,products + translation,catalog attribute,yes
+n_categories,product,products,catalog attribute,yes
+payment_type,payment,order_payments,payment is approved at this time,yes
+n_payments,payment,order_payments,payment is approved at this time,yes
+max_installments,payment,order_payments,payment is approved at this time,yes
+payment_value,payment,order_payments,payment is approved at this time,yes
+customer_state,location,customers,address given at purchase,yes
+seller_state,location,sellers,fixed seller attribute,yes
+same_state,location,derived,known at approval,yes
+same_city,location,derived,known at approval,yes
+distance_km,location,geolocation (zip centroids),fixed lookup,yes
+customer_lat,location,geolocation,fixed lookup,yes
+customer_lng,location,geolocation,fixed lookup,yes
+seller_lat,location,geolocation,fixed lookup,yes
+seller_lng,location,geolocation,fixed lookup,yes
+seller_prev_orders,history,derived from all orders,earlier records only (approvals strictly before; late rates from deliveries strictly before),yes
+customer_prev_orders,history,derived from all orders,earlier records only (approvals strictly before; late rates from deliveries strictly before),yes
+orders_last_24h,history,derived from all orders,earlier records only (approvals strictly before; late rates from deliveries strictly before),yes (nearly the same for every order on a day: cannot change the daily ranking alone)
+overall_prev_late_rate,history,derived from all orders,earlier records only (approvals strictly before; late rates from deliveries strictly before),yes (nearly the same for every order on a day: cannot change the daily ranking alone)
+recent_late_rate_14d,history,derived from all orders,earlier records only (approvals strictly before; late rates from deliveries strictly before),yes (nearly the same for every order on a day: cannot change the daily ranking alone)
+recent_deliveries_14d,history,derived from all orders,earlier records only (approvals strictly before; late rates from deliveries strictly before),yes (nearly the same for every order on a day: cannot change the daily ranking alone)
+seller_prev_delivered,history,derived from all orders,earlier records only (approvals strictly before; late rates from deliveries strictly before),yes
+seller_prev_late_rate,history,derived from all orders,earlier records only (approvals strictly before; late rates from deliveries strictly before),yes
+route_prev_delivered,history,derived from all orders,earlier records only (approvals strictly before; late rates from deliveries strictly before),yes
+route_prev_late_rate,history,derived from all orders,earlier records only (approvals strictly before; late rates from deliveries strictly before),yes
+customer_state_prev_delivered,history,derived from all orders,earlier records only (approvals strictly before; late rates from deliveries strictly before),yes
+customer_state_prev_late_rate,history,derived from all orders,earlier records only (approvals strictly before; late rates from deliveries strictly before),yes
+category_prev_delivered,history,derived from all orders,earlier records only (approvals strictly before; late rates from deliveries strictly before),yes
+category_prev_late_rate,history,derived from all orders,earlier records only (approvals strictly before; late rates from deliveries strictly before),yes
+order_delivered_carrier_date,excluded,orders,after approval (carrier pickup),never
+order_delivered_customer_date,excluded,orders,after approval; used only to build the label,label only
+order_status,excluded,orders,final status known only later; used only for eligibility,never
+review_score / comments / dates,excluded,order_reviews,written after delivery,never

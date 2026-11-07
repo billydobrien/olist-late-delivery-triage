@@ -1,0 +1,19 @@
+﻿test: 22,855 candidate orders, 22,423 with an outcome, 840 late, 103 days
+                        Gradient boosting (proposed)  Logistic regression  Longest distance rule  Riskiest seller rule  Random 10 per day (expected)  Perfect list (knows the future)
+days                                         103.000              103.000                103.000               103.000                       103.000                          103.000
+picked                                      1019.000             1019.000               1019.000              1019.000                      1019.000                         1019.000
+hits                                          82.000              105.000                 87.000                76.000                        35.453                          560.000
+wasted                                       909.000              885.000                916.000               915.000                       965.152                          459.000
+unknown                                       28.000               29.000                 16.000                28.000                        18.395                            0.000
+missed                                       758.000              735.000                753.000               764.000                       804.547                          280.000
+hit_rate_of_picks                              0.083                0.106                  0.087                 0.077                         0.035                            0.550
+share_of_late_caught                           0.098                0.125                  0.104                 0.090                         0.042                            0.667
+share_of_best_possible                         0.146                0.188                  0.155                 0.136                         0.063                            1.000
+lift_over_random                               2.313                2.962                  2.454                 2.144                         1.000                           15.796
+pr_auc                                         0.077                0.080                  0.060                 0.049                         0.038                            1.000
+saved fig01_table_test_results.png
+saved fig02_table_validation_vs_test.png
+saved fig03_test_daily_picks.png
+saved fig04_test_cumulative_hits.png
+saved fig05_test_weekly_hit_rate.png
+saved fig06_test_budget_sensitivity.png

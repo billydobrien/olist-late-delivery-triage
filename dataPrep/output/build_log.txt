@@ -1,0 +1,58 @@
+raw orders: 99,441
+joins: one row per order confirmed (items and payments summarized first)
+rows kept (approved 2017-01-01 .. 2018-07-31): 92,338 (dropped 7,103: no approval date, before 2017, or Aug 2018 and later)
+saved train.csv: 44,973 rows x 57 columns
+saved validation.csv: 24,510 rows x 57 columns
+saved test.csv: 22,855 rows x 57 columns
+(44 feature columns; every approved order is kept so each day's full candidate pool is available; only eligible == 1 rows have a late label)
+
+split summary:
+             rows  eligible    late  on_time  late_rate  pct_of_eligible   first_day    last_day
+split                                                                                           
+train       44973     43345  2452.0  40893.0     0.0566           0.4836  2017-01-05  2017-12-31
+validation  24510     23864  2831.0  21033.0     0.1186           0.2662  2018-01-01  2018-04-15
+test        22855     22423   840.0  21583.0     0.0375           0.2502  2018-04-16  2018-07-31
+
+rows without a usable label (kept as daily candidates, outcome unknown):
+reason
+shipped             1050
+unavailable          588
+canceled             432
+processing           298
+invoiced             272
+impossible dates      56
+delivered              8
+approved               2
+
+feature columns with any missing values:
+                 column  missing_train  missing_validation  missing_test
+ seller_ship_limit_days         0.0103              0.0041        0.0018
+                n_items         0.0103              0.0041        0.0018
+             n_products         0.0103              0.0041        0.0018
+              n_sellers         0.0103              0.0041        0.0018
+            total_price         0.0103              0.0041        0.0018
+          total_freight         0.0103              0.0041        0.0018
+          freight_ratio         0.0103              0.0041        0.0018
+         total_weight_g         0.0107              0.0041        0.0018
+       total_volume_cm3         0.0107              0.0041        0.0018
+          main_category         0.0103              0.0041        0.0018
+           n_categories         0.0103              0.0041        0.0018
+           seller_state         0.0103              0.0041        0.0018
+             same_state         0.0103              0.0041        0.0018
+              same_city         0.0103              0.0041        0.0018
+            distance_km         0.0156              0.0090        0.0064
+           customer_lat         0.0028              0.0027        0.0028
+           customer_lng         0.0028              0.0027        0.0028
+             seller_lat         0.0129              0.0062        0.0036
+             seller_lng         0.0129              0.0062        0.0036
+     seller_prev_orders         0.0103              0.0041        0.0018
+  seller_prev_delivered         0.0103              0.0041        0.0018
+  seller_prev_late_rate         0.0103              0.0041        0.0018
+   route_prev_delivered         0.0103              0.0041        0.0018
+   route_prev_late_rate         0.0103              0.0041        0.0018
+category_prev_delivered         0.0103              0.0041        0.0018
+category_prev_late_rate         0.0103              0.0041        0.0018
+
+saved feature_availability.csv (48 rows: every feature + excluded post-approval fields)
+
+leakage spot-check on 300 random orders (recomputed seller history by brute force): PASS

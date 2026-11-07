@@ -1,0 +1,37 @@
+method,k,hits,hit_rate,random_hits
+Gradient boosting (proposed),1,18,0.1836734693877551,3.6
+Gradient boosting (proposed),2,25,0.12690355329949238,7.3
+Gradient boosting (proposed),3,33,0.1111111111111111,10.9
+Gradient boosting (proposed),5,52,0.10483870967741936,18.2
+Gradient boosting (proposed),10,82,0.08274470232088799,35.5
+Gradient boosting (proposed),15,125,0.08411843876177658,52.7
+Gradient boosting (proposed),20,159,0.08042488619119878,69.9
+Gradient boosting (proposed),30,207,0.06986162672966588,104.4
+Gradient boosting (proposed),50,308,0.062259955528603195,173.3
+Logistic regression,1,6,0.061855670103092786,3.6
+Logistic regression,2,16,0.08163265306122448,7.3
+Logistic regression,3,29,0.09830508474576272,10.9
+Logistic regression,5,53,0.10772357723577236,18.2
+Logistic regression,10,105,0.10606060606060606,35.5
+Logistic regression,15,155,0.10437710437710437,52.7
+Logistic regression,20,199,0.1007085020242915,69.9
+Logistic regression,30,252,0.08502024291497975,104.4
+Logistic regression,50,375,0.07583417593528817,173.3
+Longest distance rule,1,9,0.08823529411764706,3.6
+Longest distance rule,2,15,0.07317073170731707,7.3
+Longest distance rule,3,22,0.07166123778501629,10.9
+Longest distance rule,5,41,0.0803921568627451,18.2
+Longest distance rule,10,87,0.08673978065802593,35.5
+Longest distance rule,15,122,0.08160535117056857,52.7
+Longest distance rule,20,148,0.07429718875502007,69.9
+Longest distance rule,30,212,0.07087930458040789,104.4
+Longest distance rule,50,317,0.06352705410821644,173.3
+Riskiest seller rule,1,5,0.05102040816326531,3.6
+Riskiest seller rule,2,11,0.05583756345177665,7.3
+Riskiest seller rule,3,23,0.07849829351535836,10.9
+Riskiest seller rule,5,41,0.08282828282828283,18.2
+Riskiest seller rule,10,76,0.07669021190716448,35.5
+Riskiest seller rule,15,94,0.06364251861882193,52.7
+Riskiest seller rule,20,122,0.061772151898734175,69.9
+Riskiest seller rule,30,163,0.0549376474553421,104.4
+Riskiest seller rule,50,227,0.04584006462035541,173.3

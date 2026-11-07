@@ -1,0 +1,44 @@
+﻿train labeled: 43,345 (2,452 late); features: 43 (24 log-scaled, 14 plain, 5 categorical)
+{'C': 0.0003, 'class_weight': 'none', 'val_hits': 284, 'val_wasted': 717, 'val_hit_rate': np.float64(0.2837), 'val_pr_auc': 0.2291}
+{'C': 0.0003, 'class_weight': 'balanced', 'val_hits': 309, 'val_wasted': 687, 'val_hit_rate': np.float64(0.3102), 'val_pr_auc': 0.2289}
+{'C': 0.001, 'class_weight': 'none', 'val_hits': 308, 'val_wasted': 691, 'val_hit_rate': np.float64(0.3083), 'val_pr_auc': 0.2404}
+{'C': 0.001, 'class_weight': 'balanced', 'val_hits': 305, 'val_wasted': 690, 'val_hit_rate': np.float64(0.3065), 'val_pr_auc': 0.2147}
+{'C': 0.003, 'class_weight': 'none', 'val_hits': 311, 'val_wasted': 685, 'val_hit_rate': np.float64(0.3122), 'val_pr_auc': 0.2373}
+{'C': 0.003, 'class_weight': 'balanced', 'val_hits': 303, 'val_wasted': 690, 'val_hit_rate': np.float64(0.3051), 'val_pr_auc': 0.2004}
+{'C': 0.01, 'class_weight': 'none', 'val_hits': 311, 'val_wasted': 683, 'val_hit_rate': np.float64(0.3129), 'val_pr_auc': 0.2261}
+{'C': 0.01, 'class_weight': 'balanced', 'val_hits': 296, 'val_wasted': 704, 'val_hit_rate': np.float64(0.296), 'val_pr_auc': 0.1884}
+{'C': 0.03, 'class_weight': 'none', 'val_hits': 305, 'val_wasted': 692, 'val_hit_rate': np.float64(0.3059), 'val_pr_auc': 0.213}
+{'C': 0.03, 'class_weight': 'balanced', 'val_hits': 281, 'val_wasted': 723, 'val_hit_rate': np.float64(0.2799), 'val_pr_auc': 0.1784}
+{'C': 0.1, 'class_weight': 'none', 'val_hits': 293, 'val_wasted': 705, 'val_hit_rate': np.float64(0.2936), 'val_pr_auc': 0.202}
+{'C': 0.1, 'class_weight': 'balanced', 'val_hits': 272, 'val_wasted': 732, 'val_hit_rate': np.float64(0.2709), 'val_pr_auc': 0.1707}
+{'C': 1.0, 'class_weight': 'none', 'val_hits': 276, 'val_wasted': 726, 'val_hit_rate': np.float64(0.2754), 'val_pr_auc': 0.1898}
+{'C': 1.0, 'class_weight': 'balanced', 'val_hits': 256, 'val_wasted': 748, 'val_hit_rate': np.float64(0.255), 'val_pr_auc': 0.1625}
+{'C': 10.0, 'class_weight': 'none', 'val_hits': 272, 'val_wasted': 730, 'val_hit_rate': np.float64(0.2715), 'val_pr_auc': 0.1876}
+{'C': 10.0, 'class_weight': 'balanced', 'val_hits': 252, 'val_wasted': 751, 'val_hit_rate': np.float64(0.2512), 'val_pr_auc': 0.161}
+chosen: 0.003 None
+                               train    validation
+days                      361.000000    105.000000
+candidates              44973.000000  24510.000000
+late_orders              2452.000000   2831.000000
+picked                   3578.000000   1045.000000
+hits                      372.000000    311.000000
+wasted                   3060.000000    685.000000
+unknown                   146.000000     49.000000
+missed                   2080.000000   2520.000000
+hit_rate_of_picks           0.108392      0.312249
+share_of_late_caught        0.151713      0.109855
+share_of_best_possible      0.233522      0.325314
+best_possible_hits       1593.000000    956.000000
+random_expected_hits      151.900000    118.000000
+lift_over_random            2.449006      2.636591
+pr_auc_all_orders           0.181200      0.237300
+pr_auc_random               0.056600      0.118600
+saved fig01_table_validation_comparison.png
+saved fig02_table_tuning.png
+saved fig03_validation_daily_picks.png
+saved fig04_validation_cumulative_hits.png
+saved fig05_top_coefficients.png
+saved fig06_budget_sensitivity.png
+saved fig07_weekly_hit_rate.png
+solver converged after 22 iterations
+saved fig08_convergence.png

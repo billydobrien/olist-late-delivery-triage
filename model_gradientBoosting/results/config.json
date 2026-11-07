@@ -1,0 +1,89 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "learning_rate": 0.1,
+  "max_leaf_nodes": 3,
+  "min_samples_leaf": 200,
+  "n_trees": 300,
+  "l2_regularization": 1.0,
+  "loss": "log_loss",
+  "selection": "most validation daily top-10 hits, ties -> validation PR-AUC",
+  "grid": {
+    "learning_rate": [
+      0.01,
+      0.03,
+      0.1
+    ],
+    "max_leaf_nodes": [
+      2,
+      3,
+      7,
+      15,
+      31
+    ],
+    "min_samples_leaf": [
+      50,
+      200
+    ],
+    "max_iter": [
+      100,
+      300,
+      600
+    ]
+  },
+  "features": [
+    "approval_hour",
+    "approval_weekday",
+    "purchase_to_approval_h",
+    "promised_days",
+    "seller_ship_limit_days",
+    "has_items",
+    "n_items",
+    "n_products",
+    "n_sellers",
+    "total_price",
+    "total_freight",
+    "freight_ratio",
+    "total_weight_g",
+    "total_volume_cm3",
+    "main_category",
+    "n_categories",
+    "payment_type",
+    "n_payments",
+    "max_installments",
+    "payment_value",
+    "customer_state",
+    "seller_state",
+    "same_state",
+    "same_city",
+    "distance_km",
+    "customer_lat",
+    "customer_lng",
+    "seller_lat",
+    "seller_lng",
+    "seller_prev_orders",
+    "customer_prev_orders",
+    "orders_last_24h",
+    "overall_prev_late_rate",
+    "recent_late_rate_14d",
+    "recent_deliveries_14d",
+    "seller_prev_delivered",
+    "seller_prev_late_rate",
+    "route_prev_delivered",
+    "route_prev_late_rate",
+    "customer_state_prev_delivered",
+    "customer_state_prev_late_rate",
+    "category_prev_delivered",
+    "category_prev_late_rate"
+  ],
+  "categorical": [
+    "customer_state",
+    "seller_state",
+    "payment_type",
+    "main_category",
+    "approval_weekday"
+  ],
+  "category_min_frequency": 100,
+  "k_per_day": 10,
+  "random_state": 0,
+  "train_rows_labeled": 43345
+}

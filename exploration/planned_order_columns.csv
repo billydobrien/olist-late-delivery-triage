@@ -1,0 +1,44 @@
+Column,Source,Role,Meaning
+order_id,orders,ID,anonymized order ID (traceability)
+order_approved_at,orders,ID / time,approval timestamp = decision time
+approval_date,orders,ID / time,calendar day used for the daily top-10 list
+split,derived,ID / time,train / validation / test by approval date
+customer_unique_id,customers,ID (history only),used to count earlier orders; not a feature
+main_seller_id,order_items,ID (history only),seller of the most expensive item; not a feature
+order_status,orders,Outcome / audit,final status (eligibility only)
+delivered_date,orders,Outcome / audit,actual customer delivery date
+estimated_date,orders,Outcome / audit,promised delivery date
+days_late,derived,Outcome / audit,delivered day minus promised day
+eligible,derived,Outcome / audit,delivered with both dates present
+late,derived,LABEL,1 if delivered on a later day than promised
+approval_hour,orders,Feature: time,hour of approval
+approval_weekday,orders,Feature: time,day of week of approval
+purchase_to_approval_h,orders,Feature: time,hours from purchase to approval
+promised_days,orders,Feature: time,days from approval to promised date
+seller_ship_limit_days,order_items,Feature: time,days from approval to seller shipping deadline (check)
+n_items,order_items,Feature: order,number of items
+n_products,order_items,Feature: order,number of different products
+n_sellers,order_items,Feature: order,number of different sellers
+total_price,order_items,Feature: order,sum of item prices
+total_freight,order_items,Feature: order,sum of freight charges
+freight_ratio,derived,Feature: order,freight / price
+total_weight_g,products,Feature: product,sum of item weights
+total_volume_cm3,products,Feature: product,sum of length x width x height
+main_category,products,Feature: product,category of the most expensive item (English)
+n_categories,products,Feature: product,number of different categories
+payment_type,order_payments,Feature: payment,main payment method
+n_payments,order_payments,Feature: payment,number of payment records
+max_installments,order_payments,Feature: payment,largest installment count
+payment_value,order_payments,Feature: payment,total paid
+customer_state,customers,Feature: location,customer state
+seller_state,sellers,Feature: location,main seller state
+same_state,derived,Feature: location,seller and customer in the same state
+distance_km,geolocation,Feature: location,seller-to-customer straight-line distance
+customer_lat / customer_lng,geolocation,Feature: location,customer zip-area coordinates
+seller_lat / seller_lng,geolocation,Feature: location,seller zip-area coordinates
+seller_prev_orders,derived (history),Feature: history,seller's orders approved earlier
+seller_prev_late_rate,derived (history),Feature: history,seller's late rate over orders DELIVERED before this approval
+customer_prev_orders,derived (history),Feature: history,customer's orders approved earlier
+route_prev_late_rate,derived (history),Feature: history,"late rate for seller state to customer state, delivered before approval"
+recent_late_rate_14d,derived (history),Feature: history,late rate of orders delivered in the 14 days before approval
+orders_last_24h,derived (history),Feature: history,orders approved in the previous 24 hours (workload)

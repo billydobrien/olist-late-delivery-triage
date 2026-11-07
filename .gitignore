@@ -1,0 +1,24 @@
+# Project description files
+ML_Project2.pdf
+ML_Project2.docx
+
+# Reports (Overleaf sources, figure scripts) and packaged copies
+reports/
+finalDeliverables/
+
+# Raw Olist data (download it from Kaggle, see README)
+dataset/
+
+# Order-level tables rebuilt by dataPrep/build_dataset.py (55 MB)
+dataPrep/output/train.csv
+dataPrep/output/validation.csv
+dataPrep/output/test.csv
+
+# Python and editor files
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
